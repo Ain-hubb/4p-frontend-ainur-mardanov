@@ -1,7 +1,7 @@
 'use strict';
 
 
-function Fibo() {
+function fibonacci() {
    let a = 0
    let b = 1
    
@@ -20,7 +20,7 @@ function Fibo() {
    })
 };
 
-const fibonacci = Fibo();
+const Fibonacci = fibonacci();
  
 console.log(fibonacci()); 
 console.log(fibonacci()); 
